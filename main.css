@@ -1,0 +1,296 @@
+body {
+	background-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*Common elements*/
+
+/*Header*/
+h1 {
+	text-align: left;
+	margin-left: 150px;
+	font-size: 50px;
+}
+ 
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	float: left;
+	margin-left: 150px;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 20px;
+	background-color: black;
+	background-size: 10px;
+	color: whitesmoke;
+}
+
+
+#acctNav {
+	color: whitesmoke;
+	
+}
+/*Nav Bar*/
+nav {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Give You Glory';
+	color: salmon;
+}
+
+/*Slideshow*/
+
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin-left: 250px;
+	display: inline-block;
+}
+
+.mySlides {
+	display: none;
+}
+
+
+.bottom-right {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: small;
+	color: whitesmoke;
+}
+
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 22px;
+	transition: 10s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+	color: whitesmoke;
+	font-size: 25px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+/*Side bar*/
+section#sidebar {
+	width: 250px;
+	height: 260px;
+	background-color: black;
+	border: .5px solid whitesmoke;
+	margin-left: 1080px;
+	margin-top: 70px;
+	position: absolute;
+	
+}
+
+h3 {
+	margin-left: 50px;
+	color: salmon;
+	font-size: medium;
+}
+
+#showlist {
+	position: relative;
+}
+
+#showlist:hover {
+	color: salmon;
+}
+
+
+/*Main*/
+section#middletxt {
+	position: absolute;
+	text-align: right;
+	
+	border: 1px dotted whitesmoke;
+	margin-left: 180px;
+	margin-right: 250px;
+	max-width: 800px;
+	margin-top: 50px;
+}
+h2 {
+	color: salmon;
+	padding-right: 40px;
+	max-width: 800px;
+	max-height: 400px;
+}
+
+p {
+	color: whitesmoke;
+	padding-right: 40px;
+	padding-left: 40px;
+	max-width: 800px;
+	max-height: 400px;
+}
+h4 {
+	color: salmon;
+	margin-left: 1135px;
+	text-align: right;
+
+}
+
+/*Images section*/
+
+section#imagemiddle {
+position: absolute;
+margin-top: 400px;	
+display: block;
+max-width: 100;
+margin-right: 360px;
+}
+
+img {
+	border: 1px solid salmon;
+	border-radius: 5px;
+	width: 200px;
+}
+
+img:hover {
+	box-shadow: 0 0 2px 1px whitesmoke;
+}
+
+div.gallery {
+	float: left;
+	border: 2px solid black;
+	padding: 10px 0 0 10px;
+	width: 222px;
+	height: 230px;
+	margin-left: 150px;
+	display: block;
+	top: -400px;
+	
+}
+
+div.gallery img {
+	width: 200px;
+	height: auto;
+	display: block;
+}
+
+div.desc {
+	text-align: left;
+	color: whitesmoke;
+	padding-bottom: 10px;
+	display: block;
+}
+* {
+	box-sizing:border-box;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+	display: block;
+}
+
+@media only screen and (max-width: 900px) {
+	.responsive {
+		width: 10%;
+		margin: 6px 0;
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 700px)
+{
+	.responsive {
+		width: 10%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+	display: block;
+}
+
+/*Form*/
+
+form {
+	position: relative;
+	border: solid whitesmoke;
+	margin-top: 1170px;
+	margin-left: 880px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	max-width: 400px;
+}
+
+/*Footer*/
+
+h5 {
+	color: salmon;
+	text-align: left;
+
+}
+
+::placeholder {
+	color: salmon;
+	font-size: small;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	background-color: whitesmoke;
+	width: 84%;
+	height: 100px;
+	margin-left: 150px;
+	margin-top: 100px;
+	position: relative;
+	padding-inline-end: 40px;
+}
+
+.footlist {
+
+	text-align: center;
+	font-size: 20px;
+	color: salmon;
+	padding-top: 20px;
+}
+
+.footlist a {
+
+	color: salmon;
+	
+}
+
